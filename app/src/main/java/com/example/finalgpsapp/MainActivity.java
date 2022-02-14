@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     Geocoder geocoder;
     double distance = 0;
     List<Location> locList = new ArrayList();
-    List <Address> addyList = new ArrayList();
+    List<Address> addyList = new ArrayList();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
